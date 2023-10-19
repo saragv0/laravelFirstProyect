@@ -12,5 +12,7 @@
     No hay data
 @endforelse
  {{$name}}
+ 
     
+
 @endsection
