@@ -1,0 +1,68 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+h1{
+    @apply text-2xl text-teal-900 uppercase font-thin
+}
+
+p{
+    @apply  text-teal-700  font-mono
+}
+
+.text{
+    @apply  text-teal-700  font-mono
+}
+
+.table  {
+    @apply table-auto w-full
+}
+
+.table th {
+    @apply px-6 py-4 bg-gray-100 font-medium text-teal-400 uppercase border leading-4 tracking-widest text-center
+}
+
+.table tr {
+    @apply border-4 border-gray-300 text-center text-gray-600
+
+
+}
+
+.table td {
+    @apply px-6 py-4 whitespace-normal
+}
+
+label{
+    @apply mt-5 block
+}
+
+/* Form */
+
+.form-control{
+    @apply block rounded-md shadow-sm bg-teal-50 w-full outline-2 
+}
+
+
+/* Buttons */
+
+.btn {
+    @apply border rounded-md px-3 py-2  text-white font-bold my-2 inline-block
+}
+
+.btn-danger{
+    @apply bg-teal-500 hover:bg-teal-700 border-teal-500
+}
+
+.btn-create{
+    @apply bg-teal-900 hover:bg-teal-700 border-teal-700
+}
+
+/* Card */
+
+.card {
+    @apply p-6 rounded shadow-sm
+}
+
+.card-white {
+    @apply bg-white mt-4
+}
